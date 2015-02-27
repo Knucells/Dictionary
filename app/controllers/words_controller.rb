@@ -14,6 +14,9 @@ class WordsController < ApplicationController
   def show
   end
 
+  
+  
+  
   # Removed for the purposes of this assessment
   
   # GET /words/new

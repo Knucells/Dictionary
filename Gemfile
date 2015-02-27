@@ -7,7 +7,7 @@ gem 'rails_12factor'
 # Use sqlite3 as the database for Active Rec
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.9'
 end
 
 group :production do
@@ -15,6 +15,7 @@ group :production do
 end
 
 #group :production do
+#gem 'sqlite3'
 #gem 'pg'
 #end
 # Use SCSS for stylesheets
