@@ -8,7 +8,7 @@ f = File.open("config/test-devil.txt")
 # split divides by space and may work better doesn't
 
 # want definition to survive multiple lines
-definition = "Definition: "
+definition = ""
 
 #need to put word and type in buffer as defintion comes later
 wordBuffer = ""
