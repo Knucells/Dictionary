@@ -7,9 +7,6 @@ f = File.open("config/dvldc10.txt")
 # scan leaves out punctuation such as ' and .
 # split divides by space and may work better doesn't
 
-# want definition to survive multiple lines
-definition = "Definition: "
-
 #need to put word and type in buffer as defintion comes later
 wordBuffer = ""
 typeBuffer =""
